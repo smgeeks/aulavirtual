@@ -1,0 +1,465 @@
+/********HEADER*********/
+
+#header-mobile .header_2.header_mobile {
+    background-color: #1d1a3d!important;
+}
+#header-mobile .header_2.header_mobile .header_top button.stm_header_top_search .icon-bar {
+    background-color: rgb(255 255 255)!important;
+}
+.stm_lms_account_popup__login i {
+    display: none!important
+}
+.stm_lms_account_popup__login h3 {
+    font-size: 15px!important
+}
+.stm_lms_account_popup__user_info a {
+    color: #000
+}
+/*********HOME*********/
+
+.hs_degradado h2 {
+    background: linear-gradient(145deg, #2461ff, #735cff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 500;
+}
+.hs_titulo500 {
+    font-weight: 500;
+}
+.hs_descriptor h2 {
+    letter-spacing: 4px
+}
+.hs_cardNosotros {
+    padding: 20px;
+    border: 1px solid #F2F2FC;
+    box-shadow: 0 3px 5px rgb(230 230 249 / 30%);
+    border-radius: 8px;
+}
+.hs_cardBeneficios {
+    padding: 20px 10px;
+    border: 1px solid #F2F2FC;
+    box-shadow: 0 3px 5px rgba(230, 230, 249, 0.3);
+    border-radius: 4px;
+}
+/*********LOGIN**********/
+
+.stm_lms_login_wrapper, .stm_lms_register_wrapper {
+    background-color: #FFF!important;
+}
+.stm_lms_login_wrapper .form-group label, .stm_lms_login_wrapper__actions label {
+    color: #212121!important;
+}
+.stm_lms_login_wrapper__actions .lostpassword {
+    color: #4765FB!important;
+}
+.stm_lms_login_wrapper .stm_lms_login_wrapper__actions .lostpassword {
+    color: #4765FB!important;
+}
+.modal-content {
+    border-radius: 8px!important;
+}
+.modal.fade.stm-lms-modal-login.in .modal-content {
+    width: initial;
+    margin: initial;
+    padding: initial;
+}
+.modal-body .nav.nav-tabs .active a {
+    color: #2A67FB!important;
+    font-size: 18px;
+    font-weight: 500;
+}
+.stm_lms_login_wrapper .form-group .heading_font {
+    color: #383C71;
+}
+.stm_lms_login_wrapper .form-group input, .stm_lms_register_wrapper .form-group input {
+    border: 0;
+    border-radius: 4px;
+    background-color: #EAEEF6!important;
+    color: #282C58;
+}
+.stm_lms_login_wrapper .form-group input::placeholder {
+    color: #98A6B3;
+}
+.stm_lms_styled_checkbox__inner {
+    border: 2px solid #DFE8FE;
+    border-radius: 4px;
+}
+.stm_lms_styled_checkbox.stm_lms_remember_me span {
+    color: #282C58;
+}
+.stm_lms_styled_checkbox__inner span i {
+    color: #98A6B3;
+}
+.stm_lms_login_wrapper .stm_lms_login_wrapper__actions .btn.btn-default, .stm_lms_register_wrapper__actions .btn.btn-default, .stm_lms_lost_password_form .btn.btn-default {
+    background: linear-gradient(135deg, rgba(36, 97, 255, 1) 0%, rgba(115, 92, 255, 1) 100%);
+}
+.social-networks a {
+    padding: 3px 20px;
+}
+.social-networks .apsl-icon-block.icon-facebook {
+    background: #2A67FB!important;
+}
+.social-networks .apsl-icon-block.icon-google {
+    background: #EA4335!important;
+}
+/*******BREADCRUMBS******/
+
+.stm_lms_breadcrumbs.stm_lms_breadcrumbs__header_6 {
+    display: none;
+}
+/*********MENU******/
+
+.menu-item a {
+    color: #FFF!important;
+}
+.magic_line.line_visible {
+    display: none;
+}
+body.tech .header_default:after {
+    background-color: transparent;
+}
+.transparent_header_off .header_main_menu_wrapper ul>li>a {
+    font-weight: 400!important;
+}
+.header-menu {
+    font-weight: 400;
+}
+.header-login-button.sign-up .btn.btn-default {
+    color: #FFF;
+}
+/********SLIDER CURSO********/
+
+#stm_lms_manage_course .single_product_after_title {
+    display: block;
+}
+.single_product_after_title {
+    display: none;
+}
+.stm_lms_single_course_carousel_item__content .h2 {
+    margin-bottom: 8px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.stm_lms_single_course_carousel_item__content .h2:hover {
+    color: #2A67FB!important;
+}
+.stm_lms_courses_carousel__button.stm_lms_courses_carousel__button_prev.sbc_h.sbrc_h, .stm_lms_courses_carousel__button.stm_lms_courses_carousel__button_next.sbc_h.sbrc_h {
+    background-color: #1d1a3d;
+    color: #FFF;
+}
+.owl-dots .owl-dot {
+    background-color: #d6d6d6;
+}
+.owl-dots .owl-dot.active {
+    background-color: #5f8dfc;
+}
+/*******CURSO FIJO**********/
+
+.hseg_cursoFijo .label.h6 {
+    color: #5F8DFC;
+}
+.hseg_cursoFijo .value.heading_font.h6, .hseg_cursoFijo .value.h6 a, .hseg_cursoFijo .average-rating-stars__av.heading_font, .hseg_cursoFijo .h2, .hseg_cursoFijo .stm_lms_course__meta {
+    color: #FFF;
+}
+.hseg_cursoFijo .stm_lms_single_course_carousel_wrapper .stm_lms_course__meta i {
+    color: #5f8dfc;
+}
+.hseg_cursoFijo .stm-lms-wishlist a span, .hseg_cursoFijo .stm-lms-wishlist span {
+    color: #FFF;
+}
+.hseg_cursoFijo .stm-lms-wishlist a i, .hseg_cursoFijo .stm-lms-wishlist i.far {
+    color: #5f8dfc!important;
+}
+.hseg_cursoFijo .stm-lms-wishlist i {
+    border: 1px solid #5f8dfc;
+}
+.hseg_cursoFijo .owl-dot.active {
+    border-color: #5f8dfc!important;
+}
+.hseg_cursoFijo .meta-unit.categories.clearfix .pull-left i {
+    color: #5f8dfc!important;
+}
+.stm_lms_udemy_includes{
+	display:none
+}
+/********MODULO CURSO*********/
+
+/*.courses_filters__title {
+    display: none!important;
+}*/
+
+.stm_lms_courses__archive_filter {
+    border-top: 3px solid #1D1A3D;
+}
+.courses_filters__switcher {
+    display: none!important;
+}
+.stm_lms_courses__single--info_preview a {
+    background-color: #2461FF!important;
+}
+.hseg_cursoFijo .fa-icon-stm_icon_category.secondary_color {
+    color: #5f8dfc;
+}
+.stm_lms_courses__single--term {
+    color: #5f8dfc;
+}
+.stm_lms_courses__single--info_author__login, .stm_lms_course__meta i {
+    color: #5f8dfc;
+}
+.single_product_after_title .meta-unit .value a {
+    color: #FFF!important;
+}
+/******ETIQUETA NUEVO*********/
+
+.stm_lms_post_status.heading_font.new {
+    background: #282C58;
+}
+/*********APP SOCIAL SHARE*******/
+
+.apss-social-share {
+    display: none!important;
+}
+/*********CURSOS INDIVIDUAL********/
+
+.stm_breadcrumbs_unit {
+    display: none;
+}
+.stm_lms_udemy_course .stm_lms_udemy_bar:before {
+    background: #1d1a3d!important;
+}
+.stm_lms_udemy_include i {
+    color: #5f8dfc!important;
+}
+.stm_lms_money_back {
+    display: none;
+}
+.stm-curriculum-section h3, .stm-curriculum-item__icon {
+    color: #5f8dfc!important;
+}
+.buy-button.btn.btn-default.btn_big.heading_font {
+    color: #FFF;
+}
+.stm_lms_finish_score__face {
+    display: none;
+}
+.stm_lms_finish_score__score span {
+    text-align: center;
+    color: #5E6397;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.stm_lms_finish_score__title {
+    color: #5E6397;
+}
+.stm-lms-course__content .stm-lms-course__lesson-content__top h1{
+	margin:0 0 10px!important
+}
+.stm-lms-course__content .stm-lms-course__lesson-content__top{
+	margin:0 0 15px!important
+}
+.stm-lms-wrapper.lesson_style_classic #stm-lms-lessons{
+	padding:30px 80px 130px!important
+}
+/*********LECCIONES***********/
+
+.stm_lms_lesson_header {
+    background: #1d1a3d!important;
+}
+.stm_lms_settings_button i, .stm_lms_wishlist_button i {
+    color: #5f8dfc!important;
+}
+/*LECCION VIDEO*/
+
+html.stm_lms_type_video body {
+    background: #f5f5f9!important;
+}
+.stm-lms-course__lesson-content__top h3, .stm-lms-course__lesson-content__top h1 {
+    color: #1D1A3D!important;
+}
+html.stm_lms_type_video body .stm-lms-lesson_navigation .stm-lms-lesson_navigation_side>a span, html.stm_lms_type_video body .stm-lms-lesson_navigation .stm-lms-lesson_navigation_side>a i {
+    color: #1D1A3D!important;
+}
+/********CARRITO DE COMPRAS*********/
+
+.wp-block-woocommerce-empty-cart-block p a {
+    color: #282C58!important;
+}
+body:not(.woocommerce-block-theme-has-button-styles) .wc-block-components-button:not(.is-link) {
+    background-color: #1D1A3D;
+}
+.components-button.wc-block-components-button.wp-element-button.wc-block-cart__submit-button.contained:hover {
+    color: #FFF;
+    background-color: #2A67FB;
+}
+/*******WOOCOMMERCE**********/
+
+.woocommerce-billing-fields h3, .woocommerce-additional-fields h3 {
+    display: none;
+}
+.woocommerce-order ul>li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 58px;
+}
+.hs_cabezalThanks {
+    text-align: center;
+    color: #1d1a3d;
+    font-size: 50px;
+}
+.hs_btnCursos {
+    background-color: #1d1a3d;
+    padding: 20px 0;
+    margin: 45px 0;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.hs_btnCursos:hover {
+    color: #FFF!important;
+}
+.woocommerce-notice–success {
+    text-align: center;
+}
+/**********PAGINA************/
+.post_type_exist.clearfix p a{
+	color:#292c9b
+}
+/*********CONTACTO**********/
+.hub_subtituloContacto h2{
+	color:#2967fb
+}
+/************FOOTER***********/
+
+#block-12 {
+    text-align: center;
+}
+.widget.widget_block .hs_logoFooter {
+    width: 50%;
+}
+.widget.widget_block i {
+    font-size: 24px;
+    margin: 0 10px;
+}
+.hseg_soporteFooter {
+    margin-top: 20px;
+}
+#footer_bottom .widget_title h3 {
+    margin-bottom: 4px!important;
+}
+/*******MEDIAQUERIES*******/
+
+@media (max-width: 767px) {
+    .stm_lms_lesson_header .stm_lms_lesson_header__left .stm-lms-curriculum-trigger {
+        top: 25px!important;
+        left: 15px!important;
+    }
+    body.tech .stm_lms_wishlist_button .lnr {
+        width: 31px!important;
+        height: 31px!important;
+    }
+    .stm-lms-course__lesson-content__top h1 {
+        font-size: 35px;
+        margin: 0 0 15px!important;
+    }
+    .stm-lms-wrapper.lesson_style_classic .stm-lms-course__sidebar_toggle {
+        top: 26px!important;
+    }
+    .stm-lms-wrapper.lesson_style_classic #stm-lms-lessons .stm-lms-course__lesson-content__top h3 {
+        font-size: 18px!important;
+        line-height: 23px;
+    }
+    html.stm_lms_type_video body .stm-lms-course__lesson-content__top {
+        margin: 0 0 20px;
+    }
+    .stm_lms_video iframe {
+        min-height: 300px!important;
+    }
+    .stm_lms_single_course_carousel_item__content .h2 {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 32px
+    }
+    .stm_lms_single_course_carousel_wrapper .stm_lms_single_course_carousel .stm_lms_single_course_carousel_item__content .stm_lms_courses__single--info_meta .stm_lms_course__meta {
+        font-size: 13px;
+    }
+    .stm_lms_single_course_carousel_item__image {
+        display: contents;
+    }
+	.stm-lms-wrapper.lesson_style_classic #stm-lms-lessons{
+		padding:30px 22px 130px!important
+	}
+	.stm-lms-wrapper.stm-lessons.lesson_style_classic #stm-lms-lessons{
+		margin-top:20px!important
+	}
+	.stm-lms-wrapper.stm-lessons.lesson_style_classic .stm-lms-course__sidebar_toggle{
+		top: 12px!important;
+	}
+	.stm-lms-lesson_navigation .stm-lms-lesson_navigation_side.stm-lms-lesson_navigation_prev a, .stm-lms-lesson_navigation .stm-lms-lesson_navigation_side.stm-lms-lesson_navigation_next a{
+		border:1px solid #ccc
+	}
+	.stm-lms-lesson_navigation_side a .lnr.lnr-arrow-left{
+		left:13px!important
+	}
+	.stm-lms-lesson_navigation_side a .lnr.lnr-arrow-right{
+		right:13px!important
+	}
+	.stm_lms_related_courses{
+		display:none
+	}
+	.stm-lms-course__lesson-content .stm-lms-quiz__result{
+		top: 70%!important;
+    left: 49%!important;
+    width: 95%!important;
+	}
+	.stm-lms-quiz__result .btn.btn-default.btn-retake{
+		font-size:12px
+	}
+	.stm-lms-wrapper.stm-quizzes.lesson_style_classic #stm-lms-lessons{
+		width: 100%;
+    padding: 0 14px!important;
+	}
+	.stm-lms-course__content{
+		width: 123%;
+	}
+	.stm-lms-wrapper.stm-lessons.lesson_style_classic #stm-lms-lessons{
+		width: 80%;
+    padding: 0 14px!important;
+	}
+	.stm-lms-course__content {
+    width: 95%!important;
+}
+}
+@media (max-width: 1023px) {
+   .stm-lms-course__lesson-content .stm-lms-quiz__result{
+		top: 70%!important;
+    left: 49%!important;
+    width: 95%!important;
+	}
+	.stm-lms-quiz__result .btn.btn-default.btn-retake{
+		font-size:12px
+	}
+	.stm-lms-wrapper.stm-quizzes.lesson_style_classic #stm-lms-lessons{
+		width: 100%;
+    padding: 0 14px!important;
+	}
+	.stm-lms-course__content{
+		width: 123%;
+	}
+	.stm-lms-wrapper.stm-lessons.lesson_style_classic #stm-lms-lessons{
+		width: 100%;
+    padding: 0 14px!important;
+	}
+	.stm-lms-user-quiz__name.btn.btn-default.stm_preview_certificate.certificado_button, .stm-lms-user-quiz__name.stm_preview_certificate.btn.btn-default{
+		font-size:12px
+	}
+}
+@media (max-width: 1024px) {
+    .stm-lms-lesson_navigation.heading_font.Completado {
+        margin: 10px 20px 0!important;
+    }
+    .stm_lms_account_dropdown ul.dropdown-menu {
+        right: -54px!important;
+    }
+}

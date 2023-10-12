@@ -1,0 +1,436 @@
+/*
+Theme Name:  Masterstudy child theme
+Description: Tema hijo para hacer personalizaciones de código
+Author:      Gustavo Vzqz
+Author URL:  https://tu-sitio.com
+Template:    masterstudy
+Version:     1.0
+License:     GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: masterstudy-child
+*/
+
+.stm_lms_course__input {
+    margin-top: 30px;
+}
+
+.stm_lms_course_metas {
+    margin: 10px 0 20px;
+    padding: 25px 20px;
+    border: 1px solid #e1e2e4;
+    border-radius: 9px;
+}
+
+.stm_lms_course_metas__item span {
+    margin-right: 5px;
+}
+
+#course_add_popup .modal-content {
+    width: initial;
+    margin: initial;
+}
+
+#course_add_popup .details {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#course_add_popup .details img {
+    width: 20%;
+}
+
+#course_add_popup .details .name {
+    width: 80%;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+#course_add_popup .details .btn {
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+#course_add_popup .close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+body .stm-lms-lesson_navigation {
+    width: calc(100% - 35%);
+    margin: 0 0 -94px 5.5% !important;
+    border-bottom: 1px solid #ddd;
+    z-index: 1;
+    position: relative;
+}
+
+body .stm-lms-wrapper.lesson_style_classic #stm-lms-lessons {
+    margin-top: 94px;
+    flex: 0 0 75%;
+    transition: .3s ease;
+}
+
+body .course-progress {
+    top: 30px;
+    bottom: unset;
+    margin-top: 0;
+}
+
+body .stm-lms-wrapper.lesson_style_classic .stm-lms-course__curriculum .stm-curriculum {
+    padding-top: 170px;
+    padding-bottom: 40px;
+}
+
+body .stm-lms-lesson_navigation_complete {
+    top: 0;
+}
+
+body .stm-lms-lesson_navigation .stm-lms-lesson_navigation_complete {
+    width: 25%;
+}
+
+body .stm-lms-lesson_navigation .stm_lms_complete_lesson.btn {
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0!important;
+    position: relative;
+    overflow: visible !important;
+    text-transform: uppercase;
+}
+
+body .stm-lms-lesson_navigation .stm_lms_complete_lesson.btn.loading {
+    min-height: 22px !important;
+}
+
+body .stm-lms-lesson_navigation .stm_lms_complete_lesson.btn.loading span {
+    opacity: 0;
+    display: inline-block;
+    width: auto;
+}
+
+body .stm-lms-lesson_navigation .stm_lms_complete_lesson.btn.loading::before {
+    display: inline-block !important;
+    top: 0;
+    border: 2px solid rgba(0,0,0,.5);
+}
+
+body .stm-lms-lesson_navigation .stm_lms_complete_lesson.btn:hover::after, body .stm-lms-lesson_navigation .stm_lms_complete_lesson.btn::after {
+    content: none !important;
+}
+
+body .stm-lms-lesson_navigation .stm_lms_complete_lesson.btn span {
+    font-size: 15px;
+    color: #273044;
+    font-weight: 600;
+}
+
+body .stm-lms-lesson_navigation .stm_lms_complete_lesson.btn i {
+    color: #273044;
+    font-size: 19px;
+    margin-left: 4px;
+}
+
+body .stm-lms-lesson_navigation .stm_lms_complete_lesson.btn i::before {
+    content: "\f061"!important;
+    font-family: "Font Awesome 5 Free"!important;
+    font-weight: 900;
+}
+
+.stm-lms-wrapper.lesson_style_classic .stm-lms-course__sidebar {
+    margin-top: 0;
+    flex: 0 0 0 !important;
+}
+
+body.lesson-sidebar-opened .stm-lms-wrapper.lesson_style_classic .stm-lms-course__sidebar {
+    flex: 0 0 25% !important
+}
+
+body.lesson-sidebar-opened #stm-lms-lessons {
+    flex: 0 0 50% !important;
+}
+
+.stm-member {
+    display: flex;
+}
+
+.stm-member__info {
+    width: calc(50% - 20px);
+    display: flex;
+    margin-right: 20px;
+    box-shadow: 0 0 3px rgb(0 0 0 / 15%);
+    border-radius: 4px;
+    padding: 10px 15px;
+}
+
+.stm-member__info p i {
+    position: relative;
+    top: 1px;
+}
+
+.stm-member__sertificate {
+    width: 25%;
+    background-color: rgb(242, 242, 252);
+    border-radius: 4px;
+    padding: 10px 15px;
+}
+
+.stm-member__courses {
+    width: calc(25% - 20px);
+    margin-right: 20px;
+    border-radius: 4px;
+    padding: 10px 15px;
+    background-color: rgb(47 50 92);
+    color: #fff;
+}
+
+.stm-member__courses h3 {
+    color: #fff;
+}
+
+.stm-member__courses h3 i, .stm-member__sertificate h3 i {
+    margin-right: 5px;
+}
+
+.stm-member__avatar img.avatar.photo {
+    max-width: 155px;
+    max-height: max-content;
+    border-radius: 4px;
+}
+
+.stm-member__avatar {
+    margin-right: 15px;
+}
+
+.stm-member__settings {
+    margin-left: auto;
+}
+
+.stm-member__settings a {
+    color: #000;
+}
+
+.stm-member__settings a i {
+    position: relative;
+    top: 3px;
+}
+
+.stm-member .stm-member__btn {
+    margin-inline: auto;
+    display: block;
+    width: max-content;
+    padding: 10px 15px;
+    font-size: 12px;
+}
+
+.stm-member__counter {
+    text-align: center;
+    font-size: 24px;
+}
+
+.stm-member-tab {
+    margin-top: 35px;
+}
+
+.stm-member-content__item {
+    display: none;
+}
+
+.stm-member-content__item.active {
+    display: block;
+}
+
+#wishlist .stm_lms_user_info_top {
+    display: none;
+}
+
+html.stm_lms_type_stream body .stm-lms-lesson_navigation .stm_lms_complete_lesson:not(.completed) span, html.stm_lms_type_video body .stm-lms-lesson_navigation .stm_lms_complete_lesson:not(.completed) span {
+    color: #273044 !important;
+}
+
+body .not-passed .stm-lms-quiz__result, body .passed .stm-lms-quiz__result {
+    transform: translate(-50%, -50%);
+}
+
+.stm-lms-quiz__result_number > p {
+    font-size: 26px;
+    line-height: normal;
+    color: #d67976;
+}
+
+#recommend-courses .stm_lms_related_courses {
+    padding-top: 0;
+}
+
+.stm_lms_confirm_certificate {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s ease;
+    z-index: 99999999999;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.stm_lms_confirm_certificate.active {
+    opacity: 1!important;
+    visibility: visible;
+}
+
+.stm_lms_confirm_certificate__inner {
+    position: relative;
+    width: 630px;
+    padding: 72px 120px 60px;
+    background-color: #fff;
+    box-shadow: 0 20px 70px 0 rgba(0,0,0,.27);
+    z-index: 900;
+}
+
+#confirm_certificate_form {
+    margin-bottom: 20px;
+}
+
+.stm_lms_confirm_certificate__inner input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#confirm_certificate_form_btn.loading {
+    font-size: 0;
+}
+
+.masterstudy-theme .stm-lms-wrapper .stm-lms-user-certificates .stm-lms-user-quiz .stm_preview_certificate {
+    text-align: center;
+    padding-left: 0;
+}
+
+.wc-block-cart__submit-button {
+    background-color: #1e1e1e !important;
+    color: #fff !important;
+}
+
+@media (max-width: 1440px) {
+    body .stm-lms-lesson_navigation {
+        width: calc(100% - 44%);
+        margin: 0 auto -94px 5% !important;
+    }
+    body .stm-lms-wrapper.lesson_style_classic #stm-lms-lessons {
+        flex: 0 0 65%;
+    }
+    body.lesson-sidebar-opened #stm-lms-lessons {
+        flex: 0 0 65% !important;
+    }
+    .stm-lms-lesson_navigation .stm-lms-lesson_navigation_side {
+        width: 40% !important;
+    }
+}
+
+@media (max-width: 1199px) {
+    .stm-member__settings a {
+        font-size: 0;
+    }
+    .stm-member__settings a i {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1024px) {
+    body .stm_lms_complete_lesson.btn {
+        text-align: right;
+    }
+    body .stm_lms_complete_lesson.btn span {
+        display: none;
+    }
+    body .stm-lms-lesson_navigation .stm-lms-lesson_navigation_complete{
+        text-align: right;
+    }
+    body .stm-lms-wrapper.lesson_style_classic #stm-lms-lessons {
+        flex: 0 0 55%;
+    }
+    body.lesson-sidebar-opened #stm-lms-lessons {
+        flex: 0 0 55% !important;
+    }
+    .stm-member__info p {
+        word-break: break-all;
+    }
+}
+
+@media (max-width: 767px) {
+    #course_add_popup h2 {
+        font-size: 26px;
+    }
+    #course_add_popup .details .btn {
+        padding: 10px 20px;
+    }
+    body .stm_lms_complete_lesson.btn {
+        width: auto;
+        min-height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    body .stm-lms-lesson_navigation {
+        margin: 0 auto -94px 20px !important;
+    }
+    body .stm-lms-wrapper.lesson_style_classic .stm-lms-course__sidebar_toggle {
+        top: 110px!important;
+    }
+    .stm-lms-lesson_navigation .stm-lms-lesson_navigation_side {
+        justify-content: center !important;
+    }
+    body .stm_lms_complete_lesson.btn.loading::before {
+        top: 11px !important;
+    }
+    body .stm-lms-wrapper.lesson_style_classic #stm-lms-lessons {
+        flex: 0 0 100%;
+    }
+    body.lesson-sidebar-opened #stm-lms-lessons {
+        flex: 0 0 100% !important;
+    }
+    .stm-member {
+        flex-wrap: wrap;
+        width: auto;
+        margin: 0 -15px;
+    }
+    .stm-member__info {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .stm-member__courses {
+        width: calc(50% - 10px);
+        margin-right: 10px;
+    }
+    .stm-member__sertificate {
+        width: 50%;
+    }
+    .stm-member__courses h3, .stm-member__sertificate h3 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .stm-member .stm-member__btn {
+        padding: 5px 9px;
+    }
+    .stm-member-tab {
+        width: auto;
+        margin: 25px -15px 0;
+    }
+    .stm-member-tab #buddypress {
+        margin-bottom: 20px;
+    }
+    .stm-member-content {
+        width: auto;
+        margin: 0 -15px;
+    }
+    body .stm-lms-lesson_navigation {
+        width: auto;
+        border-top: none;
+        padding-top: 0;
+    }
+}

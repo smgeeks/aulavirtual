@@ -1,0 +1,9 @@
+//console.log('CARGANDO SCRIPT PARA ESTABLECER IDIOMA EN EL BACKEND');
+//console.log('IDIOMA ACTUAL DEL PLUGIN PARA EL BACKEND: ' + idiomaRVLFECFDI);
+
+if(typeof(idiomaRVLFECFDI) == "undefined")
+{
+	//console.log('ESTABLECIENDO EL IDIOMA POR DEFECTO EN ESPAÑOL (ES)');
+    var idiomaRVLFECFDI='ES';
+	//console.log('IDIOMA FINAL DEL PLUGIN PARA EL BACKEND: ' + idiomaRVLFECFDI);
+}
